@@ -8,6 +8,7 @@ site_author: math2001
 pages:
   - Home: index.md
   - Change Default Settings: change-default-settings.md
+  - Aliases: aliases.md
   - Unix commands: unix-commands.md
   - Prompt text: prompt-text.md
   - Color Scheme: color-scheme.md
