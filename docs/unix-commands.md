@@ -63,7 +63,8 @@ So, follow the above steps again to add this path!
 
 Now, restart your command prompt, and try to type `ls`. It works! Much better that `dir` right?
 
-To learn how it some of them, I recommend watching [those tutos][unix-commands-tuto]
+To learn how it some of those awesome commands, I recommend watching
+[those tutos][unix-commands-tuto]
 
 !!! note
     Usually, when you want to add files to your path, you edit the `user` variables (the *top*

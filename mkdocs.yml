@@ -24,7 +24,6 @@ markdown_extensions:
   - codehilite
 
 extra:
-  logo: imgs/FileManager-opposite.svg
   palette:
     primary: red
     accent: Deep Orange
