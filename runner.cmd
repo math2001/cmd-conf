@@ -7,7 +7,7 @@ doskey gs=git status --short $*
 doskey st=cd "%APPDATA%\Sublime Text 3\Packages"$*
 doskey stu=cd "%APPDATA%\Sublime Text 3\Packages\User"$*
 doskey sdf=subl %0
-doskey ls="C:\Program Files\Git\usr\bin\ls.exe" -F -X --color $* --ignore "NTUSER.DAT{*"
+doskey ls="C:\Program Files\Git\usr\bin\ls.exe" -F -X --color --ignore "NTUSER.DAT{*" $*
 doskey PackageChecker=python "%APPDATA%\Sublime Text 3\Packages\PackageChecker\PackageChecker.py" $*
 doskey gst=python "C:\python\tools\git-semver-tag\git-semver-tag.py" -s $*
 

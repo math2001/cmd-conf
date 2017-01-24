@@ -1,0 +1,35 @@
+site_name: CMD Conf
+theme: material
+repo_name: math2001/cmd-conf
+repo_url: https://github.com/math2001/cmd-conf
+site_description: Sublime Text 3 Plugin CMD Conf's documentation
+site_author: math2001
+
+markdown_extensions:
+  - toc(permalink=true)
+  - pymdownx.arithmatex
+  - pymdownx.betterem(smart_enable=all)
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist(custom_checkbox=true)
+  - pymdownx.tilde
+  - admonition
+  - codehilite
+
+extra:
+  logo: imgs/FileManager-opposite.svg
+  palette:
+    primary: red
+    accent: Deep Orange
+  social:
+    - type: github
+      link: https://github.com/math2001
+    - type: twitter
+      link: https://twitter.com/_math2001
