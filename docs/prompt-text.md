@@ -4,7 +4,7 @@ The prompt text is the text that is shown before you can type a command. By defa
 This is really bad, right? You get into a nested folder, and you don't have any room left to type
 your command (you get this line break, which is really annoying)
 
-But, where you aware that you could change it? Yes, and that's really easy!
+But, were you aware that you could change it? Yes, and that's really easy!
 
 ```
 prompt [text]
@@ -12,9 +12,6 @@ prompt [text]
 
 The command `prompt` changes it for you (all it does is change the `prompt` variable).
 
-!!! note
-    Special meaning is given to letters preceded with a `$` sign. The list of this "variable" are
-    listed in the command help:
 
     ```
     prompt /?
@@ -35,7 +32,7 @@ Your command>
     There is a `^` before the `>` because you need to escape it. And, in windows batch, you the
     "escaper" is the `^` symbol.
 
-But, this prompt is almost worst, right? But here's when it get pretty cool:
+But, this prompt is almost worst, right? But here's when it gets pretty cool:
 
 ```
 C:\Users\math>prompt $P$_$$
@@ -51,23 +48,23 @@ This one uses the "variables". Here is the list
 
 | Variable Name |                 Value                 |
 |---------------|---------------------------------------|
-| `$A`          | & (Ampersand)                         |
-| `$B`          | &#124; (pipe)                         |
-| `$C`          | ( (Left parenthesis)                  |
+| `$A`          | `&` (Ampersand)                       |
+| `$B`          | `&#124;` (pipe)                       |
+| `$C`          | `(` (Left parenthesis)                |
 | `$D`          | Current date                          |
 | `$E`          | Escape code (ASCII code 27)           |
-| `$F`          | ) (Right parenthesis)                 |
-| `$G`          | > (greater-than sign)                 |
+| `$F`          | `)` (Right parenthesis)               |
+| `$G`          | `>` (greater-than sign)               |
 | `$H`          | Backspace (erases previous character) |
-| `$L`          | < (less-than sign)                    |
+| `$L`          | `<` (less-than sign)                  |
 | `$N`          | Current drive                         |
 | `$P`          | Current drive and path                |
-| `$Q`          | = (equal sign)                        |
-| `$S`          | (space)                               |
+| `$Q`          | `=` (equal sign)                      |
+| `$S`          | ` ` (space)                           |
 | `$T`          | Current time                          |
 | `$V`          | Windows version number                |
 | `$_`          | Carriage return and linefeed          |
-| `$$`          | $ (dollar sign)                       |
+| `$$`          | `$` (dollar sign)                     |
 
 !!! tip
     To display the full help, you can use `prompt /?`
@@ -84,8 +81,8 @@ So, here's the workaround: We're going to create a loop in our runner file (see 
 - run that command
 - go back up
 
-So, in fact, the "default" (even the one you're going to set with `prompt ....` command prompt is
-never going to be rendered.
+So, in fact, the "default" (so, even the one you're going to set with the `prompt ....` command)
+prompt is never going to be rendered.
 
 And here's how it looks in batch
 
@@ -131,6 +128,8 @@ This python script uses [`colorama`][colorama] which is a cross-platform python 
 outputting text in color in your terminal.
 
 Note that you might want to optimise this file, because it's going to be called *each* time you're
-going to type a new command! I'm currently looking on writing it in Go.
+going to type a new command!
+
+So, build your own script to fit your needs, you're completely free now!
 
 [colorama]: https://pypi.python.org/pypi/colorama

@@ -5,6 +5,13 @@ repo_url: https://github.com/math2001/cmd-conf
 site_description: Sublime Text 3 Plugin CMD Conf's documentation
 site_author: math2001
 
+pages:
+  - Home: index.md
+  - Change Default Settings: change-default-settings.md
+  - Unix commands: unix-commands.md
+  - Prompt text: prompt-text.md
+  - Color Scheme: color-scheme.md
+
 markdown_extensions:
   - toc(permalink=true)
   - pymdownx.arithmatex
