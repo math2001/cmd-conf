@@ -48,6 +48,7 @@ func main() {
     wd, _ := os.Getwd()
     wd = strings.Replace(wd, os.ExpandEnv("$USERPROFILE"), "~", 1)
     wd = strings.Replace(wd, "\\", "/", -1)
+    if wd == "~" { wd = "~/" }
     color.New(color.FgMagenta).Add(color.Underline).Print(wd)
 
     var branch string = get_branch_name()
