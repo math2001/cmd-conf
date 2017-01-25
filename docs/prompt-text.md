@@ -49,7 +49,7 @@ This one uses the "variables". Here is the list
 | Variable Name |                 Value                 |
 |---------------|---------------------------------------|
 | `$A`          | `&` (Ampersand)                       |
-| `$B`          | `&#124;` (pipe)                       |
+| `$B`          | `|` (pipe)                            |
 | `$C`          | `(` (Left parenthesis)                |
 | `$D`          | Current date                          |
 | `$E`          | Escape code (ASCII code 27)           |
