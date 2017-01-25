@@ -16,7 +16,8 @@ cls
 echo.
 :: loop: ask for a command, execute this command
 :cmd
-python "C:/users/math/cmd-conf/echo-prompt.py"
+rem python "C:/users/math/cmd-conf/echo-prompt.py"
+%~0\..\echo-prompt.exe
 set cmd=
 set /p cmd=
 %cmd%
